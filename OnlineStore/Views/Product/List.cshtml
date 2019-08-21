@@ -1,0 +1,26 @@
+﻿@*@using OnlineStore.Domain.Entities;
+    @model IEnumerable<Product>*@
+@using OnlineStore.HtmlHelpers;
+@using OnlineStore.Models
+@model ProductListViewModel
+
+@{
+    ViewBag.Title = "Products";
+}
+
+<h2>List of Products</h2>
+
+@foreach (var emp in Model.Products)
+{
+    @Html.Partial("ProductSummary",emp)
+}
+
+
+<div class="btn-group pull-right">
+    @Html.PagingLink(Model.PagingInfo, x => Url.Action("List", 
+    new { page = x,category = Model.CurrentCategory }))
+</div>
+
+
+
+
