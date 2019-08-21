@@ -7,6 +7,8 @@ Shop and Buy
 # poceed a chechkout order using email address (To test it you have to change the Email Setting in Setting class by adding your email and password)
 # 
 https://github.com/aissazouhayr/OnlineShopping/OnlineStore/Views/Shared/_Layout.cshtml
+
+OnlineShopping/OnlineStore/Views/Shared/_Layout.cshtml
 ![s2](https://user-images.githubusercontent.com/45210683/63450940-1fe37800-c411-11e9-89d0-8aa92ccb1ae8.JPG)
 
 
