@@ -6,7 +6,7 @@ Shop and Buy
 #you can look up the products by categories on left
 # poceed a chechkout order using email address (To test it you have to change the Email Setting in Setting class by adding your email and password)
 # 
-https://github.com/aissazouhayr/OnlineShopping1/Product/Index
+https://github.com/aissazouhayr/OnlineShopping1/Product/List
 ![s2](https://user-images.githubusercontent.com/45210683/63450940-1fe37800-c411-11e9-89d0-8aa92ccb1ae8.JPG)
 
 
